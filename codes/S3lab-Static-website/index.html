@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cozy Cafe</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Open+Sans&display=swap"
+        rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Open Sans', sans-serif;
+            color: #333;
+            background: #fff;
+        }
+
+        header {
+            background-image: url('background.jpg');
+            /* Replace with your image URL or local path */
+            /* Replace with your image URL or local path */
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+            color: white;
+        }
+
+        header h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 4em;
+            margin-bottom: 0.3em;
+        }
+
+        header p {
+            font-size: 1.5em;
+            background-color: rgba(0, 0, 0, 0.4);
+            display: inline-block;
+            padding: 0.5em 1em;
+            border-radius: 5px;
+        }
+
+        nav {
+            background: #333;
+            padding: 1em;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 1em;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        section {
+            padding: 3em 1em;
+            max-width: 900px;
+            margin: auto;
+            text-align: center;
+        }
+
+        section h2 {
+            font-family: 'Playfair Display', serif;
+            margin-bottom: 1em;
+            font-size: 2.5em;
+        }
+
+        .menu-items {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 2em;
+        }
+
+        .menu-item {
+            width: 200px;
+        }
+
+        .menu-item img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        .menu-item p {
+            margin-top: 0.5em;
+            font-weight: bold;
+        }
+
+        footer {
+            background: #333;
+            color: white;
+            padding: 2em 1em;
+            text-align: center;
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 2.5em;
+            }
+
+            header p {
+                font-size: 1.2em;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Cozy Cafe</h1>
+        <p>Your perfect cup, every day.</p>
+    </header>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#menu">Menu</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Welcome to Cozy Cafe, where every cup of coffee is crafted with love. We serve freshly brewed coffee,
+            homemade pastries, and a warm atmosphere that feels like home.</p>
+    </section>
+
+    <section id="menu">
+        <h2>Our Menu</h2>
+        <div class="menu-items">
+            <div class="menu-item">
+                <img src="latte.jpg" alt="Latte" />
+                <p>Latte - $3.50</p>
+            </div>
+            <div class="menu-item">
+                <img src="croissant.jpg" alt="Croissant" />
+                <p>Butter Croissant - $2.00</p>
+            </div>
+            <div class="menu-item">
+                <img src="espresso.jpg" alt="Espresso" />
+                <p>Espresso - $2.00</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>📍 Main Street, Yourtown, Country</p>
+        <p>📞 +123-456-7890</p>
+        <p>📧 contact@cozycafe.com</p>
+    </section>
+
+    <footer>
+        &copy; 2025 Cozy Cafe. All rights reserved.
+    </footer>
+
+</body>
+
+</html>
