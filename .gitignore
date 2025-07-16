@@ -1,0 +1,109 @@
+# AWS Study Repository .gitignore
+
+# Sensitive AWS Configuration Files
+aws-config/
+.aws/
+*.pem
+*.ppk
+*.key
+
+# AWS Credentials and Keys
+aws-credentials
+credentials
+config
+*.secret
+*.credentials
+
+# CloudFormation Templates with Sensitive Data
+*-secrets.yaml
+*-secrets.yml
+*-secrets.json
+
+# Terraform Files (if used)
+*.tfstate
+*.tfstate.*
+*.tfvars
+.terraform/
+terraform.tfplan
+.terraform.lock.hcl
+
+# CDK Files (if used)
+cdk.out/
+*.generated.ts
+*.generated.js
+
+# Environment Variables
+.env
+.env.local
+.env.*.local
+
+# Log Files
+*.log
+logs/
+aws-logs/
+
+# IDE and Editor Files
+.vscode/settings.json
+.vscode/launch.json
+.idea/
+*.swp
+*.swo
+*~
+
+# OS Generated Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Node.js Dependencies (for any web projects)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+
+# Python Files (for any Python scripts)
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Temporary Files
+*.tmp
+*.temp
+temp/
+tmp/
+
+# Archive Files
+*.zip
+*.tar.gz
+*.rar
+downloads/
+
+# Large Media Files (unless specifically needed for labs)
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# Personal Notes or Sensitive Information
+personal-notes/
+private/
+sensitive/
+
+# AWS CLI History
+.aws-cli-history
+
+# Ignore directory (keep as specified)
+ignore/
