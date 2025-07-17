@@ -6,6 +6,9 @@
 - **[Introduction to AWS](notes/1.%20introduction.md)** - Overview of AWS services and use cases
 - **[AWS Global Infrastructure](notes/2.%20AWS%20Global%20Infrastructure.md)** - Regions, AZs, Edge Locations, and architectural considerations
 
+### Custom Labs
+- **[S3 CI/CD Setup using GitHub Actions](labs/1.%20Setup%20S3%20CICD.md)**
+
 ### 💻 Practical Labs & Code
 - **[Cafe Website (Downloaded)](codes/Cafe-website-downloaded/)** - Sample website project
   - Static HTML/CSS website example
