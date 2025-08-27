@@ -43,7 +43,7 @@ In Key/Value stores.
 For storing session data for websites.
 
 ## Amazon DynamoDB
-This is a serverless, no-sql database, with milisecond latency. Highly available, multi AX by default. Can replace ElastiCache as a Key/Value store, using TTL feature.
+This is a serverless, no-sql database, with milisecond latency. Highly available, multi AZ by default. Can replace ElastiCache as a Key/Value store, using TTL feature.
 
 We can use DAX for read cache, with microsecond latency.
 
